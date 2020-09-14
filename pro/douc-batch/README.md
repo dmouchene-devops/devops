@@ -1,3 +1,6 @@
+Ce module se base sur apache Camel, pour mettre en place un pipeline simple de copie de fichier depuis : 
+ - Un dir
+ - Vers un BDD via JDBC (@see : https://camel.apache.org/components/latest/jdbc-component.html)
 # Spring-Boot Camel QuickStart
 
 This example demonstrates how you can use Apache Camel with Spring Boot
