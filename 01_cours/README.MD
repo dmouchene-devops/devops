@@ -1,63 +1,63 @@
  # Sommaires
- ## Section **INTRO** : Introduction intégration continue
+ ## Section **INTRO** : Introduction intÃ©gration continue
 
- * Augmenter la confiance, diminuer les régressions, gagner du temps
- * les 7 étapes de mise en oeuvre intégration continue
- * La place des tests unitaires / intégration :
- * Livraison en continue, déploiement en continue
+ * Augmenter la confiance, diminuer les rÃ©gressions, gagner du temps
+ * les 7 Ã©tapes de mise en oeuvre intÃ©gration continue
+ * La place des tests unitaires / intÃ©gration :
+ * Livraison en continue, dÃ©ploiement en continue
  
  ## Section **Build** avec Maven 
- * Conventions, Coordonnées
+ * Conventions, CoordonnÃ©es
  * sections fichier POM.xml
  * Squelettes Projet maven
  * Notions de Phase, plugin, goal
- * gestion de dépendances
+ * gestion de dÃ©pendances
  * Repository local, distant
- * Multi-modules : héritage, composition
+ * Multi-modules : hÃ©ritage, composition
  * Profils et filtrage de ressources
  * Optimisations pom.xml : dependencyManagement, pluginManagement
- * Création de Release
- * Déploiement : distributionManagement
+ * CrÃ©ation de Release
+ * DÃ©ploiement : distributionManagement
  * Tests unitaires avec JUnit, Mockito, TestNG
- * Automatiser tests unitaires, tests d’intégration
+ * Automatiser tests unitaires, tests dâ€™intÃ©gration
  * Tests fonctionnels tests Selenium WebDriver
  * Phase de test et - integation-test
- * -pre-integation-test et ‘post-interation-test »
+ * -pre-integation-test et â€˜post-interation-test Â»
  * Ignorer les tests
  * Couverture de code
- * Résoudre les problèmes de lenteur des tests
+ * RÃ©soudre les problÃ¨mes de lenteur des tests
  * BDD avec concordion
  
  ## Section **Repository Manager** avec Nexus
- * Définition et valeur ajouté d’un >Repository d’entreprise
+ * DÃ©finition et valeur ajoutÃ© dâ€™un >Repository dâ€™entreprise
  * Installation Nexus
  * Roles Proxy, groups
  * Role pour bande passante
  * gestion des livraisons releases / snapshot
- * Intégration Maven / Nexus
+ * IntÃ©gration Maven / Nexus
  * balise mirror et server dans - settings.xml
  * balise distributionManagement dans - pom.xml
- * Gérer les purges
+ * GÃ©rer les purges
  
- ## Section **Intégration continue** avec Jenkins
- * Valeur ajoutée d’un serveur d’intégration continue
- * offre du marché : logiciels pour l’intégration continue
+ ## Section **IntÃ©gration continue** avec Jenkins
+ * Valeur ajoutÃ©e dâ€™un serveur dâ€™intÃ©gration continue
+ * offre du marchÃ© : logiciels pour lâ€™intÃ©gration continue
  * Installation et premier Job
- * Maître esclave : rôle des agents
+ * MaÃ®tre esclave : rÃ´le des agents
  * Actions - pre-build,  - post-build
- * Afficher les résultats de test dans Jenkins
- * Intégration avec gestionaire de source ( - Git, - SVN)
- * Configuration Variables Système et Propriétés globales
+ * Afficher les rÃ©sultats de test dans Jenkins
+ * IntÃ©gration avec gestionaire de source ( - Git, - SVN)
+ * Configuration Variables SystÃ¨me et PropriÃ©tÃ©s globales
  * Pipeline , JenkinsFile
  * Comparaison avec Atlassian Bamboo : Plan + Stage + Job + Task
  
- ## Section ** Métriques / Qualité du code** avec Sonar : Optionnel
- * Bugs, Vulnérabilité , ‘Code smell’
+ ## Section **MÃ©triques / QualitÃ© du code** avec Sonar : Optionnel
+ * Bugs, VulnÃ©rabilitÃ© , â€˜Code smellâ€™
  * Analyse de code via Maven : mvn sonar:sonar
  * Plugin Eclipse SonarLint
  * Comprendre le Sonar Scanner
- * Notion de ‘Dette technique’
- * Analyse résultats de Tests unitaires et Intégration
- * Profils de règle spécifique
+ * Notion de â€˜Dette techniqueâ€™
+ * Analyse rÃ©sultats de Tests unitaires et IntÃ©gration
+ * Profils de rÃ¨gle spÃ©cifique
  * Quality Gates
  
