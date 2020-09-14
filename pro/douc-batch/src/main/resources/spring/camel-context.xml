@@ -11,7 +11,7 @@
         <route>
             <from uri="timer://foo?period=1000"/>
             <setBody><simple>Hello World from camel-contex.xml</simple></setBody>
-            <log message=">>> ${body}"/>
+            <log message=">>> ${body} --"/>
         </route>
     </camelContext>
    

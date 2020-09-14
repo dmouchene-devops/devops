@@ -6,4 +6,11 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>douc-service</artifactId>
+  <dependencies>
+  	<dependency>
+  		<groupId>fr.tizwal.douc</groupId>
+  		<artifactId>douc-dao</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
