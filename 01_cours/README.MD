@@ -1,10 +1,13 @@
  # Sommaires
  ## Section **INTRO** : Introduction intégration continue
-
+ * Prerequis & public visé, objectif 
  * Augmenter la confiance, diminuer les régressions, gagner du temps
  * les 7 étapes de mise en oeuvre intégration continue
  * La place des tests unitaires / intégration :
  * Livraison en continue, déploiement en continue
+
+ ## Section **Git** avec Git 
+ * Programme à mettre par Djamel
  
  ## Section **Build** avec Maven 
  * Conventions, Coordonnées
