@@ -2,6 +2,7 @@
  ## Section **INTRO** : Introduction intégration continue
  * Prerequis & public visé, objectif 
  * Augmenter la confiance, diminuer les régressions, gagner du temps
+ * C'est quoi l'intgération continue,à quoi ca sert ? d'où ça vient? qu'est ce qu'elle apporte dans un projet de Dev? Se référer au livre blanc (ajouté au git)
  * les 7 étapes de mise en oeuvre intégration continue
  * La place des tests unitaires / intégration :
  * Livraison en continue, déploiement en continue
@@ -41,6 +42,9 @@
  * balise mirror et server dans - settings.xml
  * balise distributionManagement dans - pom.xml
  * Gérer les purges
+ 
+ ## Section **Intégration continue**, c'est quoi?
+ 
  
  ## Section **Intégration continue** avec Jenkins
  * Valeur ajoutée d’un serveur d’intégration continue
