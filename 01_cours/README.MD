@@ -32,7 +32,18 @@
  * Résoudre les problèmes de lenteur des tests
  * BDD avec concordion
  
- ## Section **Repository Manager** avec Nexus
+ ## Section **Intégration continue** avec Jenkins
+ * Valeur ajoutée d’un serveur d’intégration continue
+ * offre du marché : logiciels pour l’intégration continue
+ * Installation et premier Job
+ * Maître esclave : rôle des agents
+ * Actions - pre-build,  -post-build
+ * Afficher les résultats de test dans Jenkins
+ * Intégration avec gestionaire de source ( -Git, -SVN)
+ * Configuration Variables Système et Propriétés globales
+ * Pipeline , JenkinsFile
+  
+  ## Section **Repository Manager** avec Nexus
  * Définition et valeur ajouté d’un >Repository d’entreprise
  * Installation Nexus
  * Roles Proxy, groups
@@ -42,21 +53,6 @@
  * balise mirror et server dans - settings.xml
  * balise distributionManagement dans - pom.xml
  * Gérer les purges
- 
- ## Section **Intégration continue**, c'est quoi?
- 
- 
- ## Section **Intégration continue** avec Jenkins
- * Valeur ajoutée d’un serveur d’intégration continue
- * offre du marché : logiciels pour l’intégration continue
- * Installation et premier Job
- * Maître esclave : rôle des agents
- * Actions - pre-build,  - post-build
- * Afficher les résultats de test dans Jenkins
- * Intégration avec gestionaire de source ( - Git, - SVN)
- * Configuration Variables Système et Propriétés globales
- * Pipeline , JenkinsFile
- * Comparaison avec Atlassian Bamboo : Plan + Stage + Job + Task
  
  ## Section **Métriques / Qualité du code** avec Sonar : Optionnel
  * Bugs, Vulnérabilité , ‘Code smell’
