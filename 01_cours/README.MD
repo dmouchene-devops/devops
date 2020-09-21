@@ -33,15 +33,7 @@
  * BDD avec concordion
  
  ## Section **Intégration continue** avec Jenkins
- * Valeur ajoutée d’un serveur d’intégration continue
- * offre du marché : logiciels pour l’intégration continue
- * Installation et premier Job
- * Maître esclave : rôle des agents
- * Actions - pre-build,  -post-build
- * Afficher les résultats de test dans Jenkins
- * Intégration avec gestionaire de source ( -Git, -SVN)
- * Configuration Variables Système et Propriétés globales
- * Pipeline , JenkinsFile
+ * https://www.udemy.com/course/continous-integration-jenkins-pipelines/
   
   ## Section **Repository Manager** avec Nexus
  * Définition et valeur ajouté d’un >Repository d’entreprise
